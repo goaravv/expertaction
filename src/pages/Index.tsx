@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <main>
+    <main className="antialiased">
       <Hero />
       <About />
       <Courses />
