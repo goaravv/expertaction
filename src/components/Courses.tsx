@@ -4,39 +4,49 @@ import { Check } from "lucide-react";
 
 const courses = [
   {
-    title: "Basic to Advanced Price Action",
-    duration: "3 Months",
-    fees: "₹25,000",
-    features: [
-      "Fundamental analysis basics",
-      "Chart patterns & candlesticks",
-      "Support & resistance levels",
-      "Risk management strategies",
-      "Live market analysis",
-    ],
-  },
-  {
-    title: "Nifty Options Trading",
-    duration: "2 Months",
+    title: "Basic to Advance Price Action Intraday",
+    duration: "2 Days (Offline) / 10 Days (Online)",
     fees: "₹20,000",
     features: [
-      "Options basics & Greeks",
-      "Option strategies",
-      "Nifty trend analysis",
-      "Intraday options trading",
-      "Practical trading sessions",
+      "Stock market psychology & trading introduction",
+      "How to select winning stocks in intraday trading",
+      "Importance of levels",
+      "Expert Entry Set up 2",
+      "Dynamic level entry set up",
+      "Dynamic Micro SL (Stop loss) & Exit",
+      "Market structures - Pure price action reading",
+      "Trend analysis & multiple time frame analysis",
+      "Risk management strategies",
     ],
   },
   {
-    title: "Advanced Intraday Trading",
-    duration: "2 Months",
-    fees: "₹22,000",
+    title: "Nifty Option Trading Special Course",
+    duration: "15 Days (Online & Offline)",
+    fees: "₹50,000",
     features: [
-      "Advanced scalping techniques",
-      "Time frame analysis",
-      "Volume price analysis",
-      "High-probability setups",
-      "Real-time trade execution",
+      "Nifty option trading intraday strategy",
+      "Nifty importance of levels",
+      "Micro SL Entry Set up 5",
+      "Professional high-probability setups",
+      "Pure price action analysis",
+      "Trend analysis & multiple time frame analysis",
+      "Risk management techniques",
+      "Live trading sessions (1 week)",
+    ],
+  },
+  {
+    title: "Future Expert Pure Intraday",
+    duration: "30 Days",
+    fees: "₹1,00,000",
+    features: [
+      "Professional high-probability setups",
+      "Expert Entry Set up 11",
+      "Dynamic level entry set up",
+      "Dynamic Micro SL techniques",
+      "Live trading sessions (1 week)",
+      "Dynamic level with software",
+      "Lifetime software access",
+      "Advanced risk management",
     ],
   },
 ];
@@ -61,7 +71,7 @@ const Courses = () => {
               className="bg-card border-accent/20 hover:border-accent/40 transition-all duration-300"
             >
               <CardHeader>
-                <CardTitle className="text-2xl text-accent">
+                <CardTitle className="text-xl md:text-2xl text-accent leading-tight">
                   {course.title}
                 </CardTitle>
                 <CardDescription className="text-foreground/70">
@@ -81,7 +91,7 @@ const Courses = () => {
                   {course.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground/80">{feature}</span>
+                      <span className="text-foreground/80 text-sm">{feature}</span>
                     </li>
                   ))}
                 </ul>
@@ -91,6 +101,15 @@ const Courses = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="mt-8 bg-card border-2 border-accent/30 rounded-lg p-6 text-center">
+          <p className="text-accent font-bold text-lg mb-2">
+            100% Money Back Guarantee*
+          </p>
+          <p className="text-sm text-foreground/70">
+            *Terms and conditions apply. Contact us for complete guarantee details.
+          </p>
         </div>
 
         <div className="mt-16 bg-card border border-accent/20 rounded-lg p-8">

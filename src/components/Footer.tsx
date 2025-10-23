@@ -61,10 +61,13 @@ const Footer = () => {
             <p className="text-sm text-foreground/70 leading-relaxed">
               <strong className="text-accent">Disclaimer:</strong> This academy focuses 
               on education and skill-building in trading. Trading in financial markets 
-              involves risk and may not be suitable for all investors. Past performance 
-              is not indicative of future results. We do not guarantee any returns or 
-              profits. All investment decisions should be made based on your own research 
-              and consultation with qualified financial advisors.
+              involves substantial risk of loss and may not be suitable for all investors. 
+              Past performance is not indicative of future results. We do not guarantee 
+              any returns, profits, or trading outcomes. The term "profitable setups" 
+              refers to educational strategies and does not guarantee profitability. 
+              All investment and trading decisions should be made based on your own research, 
+              risk tolerance, and consultation with qualified financial advisors. Students 
+              are responsible for their own trading decisions and outcomes.
             </p>
           </div>
         </div>
