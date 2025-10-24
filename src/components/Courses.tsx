@@ -95,7 +95,15 @@ const Courses = () => {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
+                <Button 
+                  onClick={() => {
+                    const heroSection = document.getElementById('hero');
+                    if (heroSection) {
+                      heroSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                  }}
+                  className="w-full bg-accent hover:bg-accent/90 text-accent-foreground"
+                >
                   Enroll Now
                 </Button>
               </CardContent>

@@ -24,7 +24,7 @@ const StickyCallButton = () => {
           <Button
             onClick={handleContactClick}
             size="lg"
-            className="w-full md:w-auto bg-accent-foreground text-accent hover:bg-accent-foreground/90 font-bold text-base md:text-lg px-8 shadow-xl hover:shadow-2xl transition-all hover:scale-105 animate-pulse"
+            className="w-full md:w-auto bg-accent-foreground text-accent hover:bg-accent-foreground/90 font-bold text-base md:text-lg px-8 shadow-xl hover:shadow-2xl transition-all hover:scale-105 relative overflow-hidden before:absolute before:inset-0 before:border-2 before:border-transparent before:rounded-md before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:animate-[shimmer_2s_infinite] before:translate-x-[-200%]"
           >
             Contact Now
             <ArrowRight className="w-5 h-5 md:w-6 md:h-6 ml-2" />
