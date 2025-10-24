@@ -1,6 +1,12 @@
 import classroom1 from "@/assets/classroom-1.webp";
 import classroom2 from "@/assets/classroom-2.webp";
 import classroom3 from "@/assets/classroom-3.webp";
+import facility1 from "@/assets/facility-1.webp";
+import facility2 from "@/assets/facility-2.webp";
+import facility3 from "@/assets/facility-3.webp";
+import facility4 from "@/assets/facility-4.webp";
+import facility5 from "@/assets/facility-5.webp";
+import facility6 from "@/assets/facility-6.webp";
 
 const About = () => {
   return (
@@ -57,6 +63,44 @@ const About = () => {
               src={classroom3}
               alt="Trading setup"
               className="rounded-lg w-full h-48 object-cover col-span-2 border border-accent/20"
+            />
+          </div>
+        </div>
+
+        <div className="mb-12">
+          <h3 className="text-2xl font-bold text-accent mb-6 text-center">
+            Our State-of-the-Art Facilities
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <img
+              src={facility1}
+              alt="ExpertAction Reception Area"
+              className="rounded-lg w-full h-64 object-cover border border-accent/20"
+            />
+            <img
+              src={facility2}
+              alt="Professional Trading Setup with Multiple Screens"
+              className="rounded-lg w-full h-64 object-cover border border-accent/20"
+            />
+            <img
+              src={facility3}
+              alt="Live Trading Session in Progress"
+              className="rounded-lg w-full h-64 object-cover border border-accent/20"
+            />
+            <img
+              src={facility4}
+              alt="Students Learning in Trading Lab"
+              className="rounded-lg w-full h-64 object-cover border border-accent/20"
+            />
+            <img
+              src={facility5}
+              alt="Team at ExpertAction Academy"
+              className="rounded-lg w-full h-64 object-cover border border-accent/20"
+            />
+            <img
+              src={facility6}
+              alt="Advanced Trading Workstation"
+              className="rounded-lg w-full h-64 object-cover border border-accent/20"
             />
           </div>
         </div>

@@ -15,21 +15,21 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold text-accent mb-4">Quick Links</h3>
+            <h3 className="text-xl font-bold text-accent mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-foreground/80 hover:text-accent transition-colors">
-                  About Us
+                <a href="/disclaimer" className="text-foreground/80 hover:text-accent transition-colors">
+                  Disclaimer
                 </a>
               </li>
               <li>
-                <a href="#courses" className="text-foreground/80 hover:text-accent transition-colors">
-                  Courses
+                <a href="/privacy-policy" className="text-foreground/80 hover:text-accent transition-colors">
+                  Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-foreground/80 hover:text-accent transition-colors">
-                  Contact
+                <a href="/terms-and-conditions" className="text-foreground/80 hover:text-accent transition-colors">
+                  Terms & Conditions
                 </a>
               </li>
             </ul>
