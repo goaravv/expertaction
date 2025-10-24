@@ -36,12 +36,11 @@ const Hero = () => {
       // Send data to Make.com webhook
       const webhookUrl = "https://hook.eu2.make.com/8pvaz8h26fc4kc2awwu0i73gndt7f8c5";
       
-      await fetch(webhookUrl, {
+      const response = await fetch(webhookUrl, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        mode: "no-cors",
         body: JSON.stringify({
           name: formData.name.trim(),
           email: formData.email.trim(),
@@ -50,6 +49,11 @@ const Hero = () => {
           source: "ExpertAction Trading Academy Website",
         }),
       });
+
+      // Check if the webhook call was successful
+      if (!response.ok) {
+        throw new Error(`Webhook error: ${response.status}`);
+      }
 
       // Navigate to thank you page
       navigate("/thank-you");
