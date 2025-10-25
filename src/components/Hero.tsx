@@ -80,7 +80,7 @@ const Hero = () => {
               className="w-32 h-32 mx-auto md:mx-0"
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-accent leading-tight">
-              ExpertAction Price Action Trading Academy
+              ExpertAction: Share Market Trading Academy
             </h1>
             <p className="text-xl md:text-2xl text-foreground/90">
               Learn professional price action trading with certified trainers.

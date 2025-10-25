@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.webp";
 
 const Header = () => {
-  const phoneNumber = "+918237220005";
+  const phoneNumber = "+919112490590";
 
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-accent/20">

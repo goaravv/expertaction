@@ -20,8 +20,7 @@ const Contact = () => {
             </div>
             <h3 className="text-xl font-bold text-accent mb-2">Office Address</h3>
             <p className="text-foreground/80">
-              Flat No. 1004, 10th Floor, VT P Nation, Kharadi Manjari Road, 
-              VTP Township Manjari, Khurd, Pune, Maharashtra - 412307
+              Office No -23 ,B wing, 3rd floor,City VistaDowntown, Fountain road, Kharadi, Pune, 411014
             </p>
           </div>
 
@@ -31,8 +30,8 @@ const Contact = () => {
             </div>
             <h3 className="text-xl font-bold text-accent mb-2">Phone</h3>
             <p className="text-foreground/80">
-              <a href="tel:+919876543210" className="hover:text-accent transition-colors">
-                +91 98765 43210
+              <a href="tel:+919112490590" className="hover:text-accent transition-colors">
+                +91 91124 90590
               </a>
             </p>
           </div>
@@ -44,10 +43,10 @@ const Contact = () => {
             <h3 className="text-xl font-bold text-accent mb-2">Email</h3>
             <p className="text-foreground/80">
               <a 
-                href="mailto:info@expertaction.in" 
+                href="mailto:expertactionpune@gmail.com" 
                 className="hover:text-accent transition-colors"
               >
-                info@expertaction.in
+                expertactionpune@gmail.com
               </a>
             </p>
           </div>
